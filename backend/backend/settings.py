@@ -120,7 +120,7 @@ CORS_ORIGIN_WHITELIST = [
 
 # senry sdk
 sentry_sdk.init(
-    dsn = '',
+    dsn = 'https://7406d7484aa149048ba8df103618db0e@o4505138715951104.ingest.sentry.io/4505138723028992',
     integrations = [
         DjangoIntegration(),
     ],
